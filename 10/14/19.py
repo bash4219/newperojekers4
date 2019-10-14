@@ -23,7 +23,7 @@ print(archimedes(4))
 print(archimedes(8))
 print(archimedes(16))
 
-for sides in range(8, 100, 8):
+for sides in range(40, 400, 40):
     print(sides, archimedes(sides))
 
 
@@ -31,3 +31,6 @@ for sides in range(8, 100, 8):
 # between the values calculated by the archimedes function and by math.pi.
 # how many sides does it take to make the two close?
 
+print(math.pi)
+#360000000 is the numbers of sides thst it takes to mack pi
+print(archimedes(360000000))
