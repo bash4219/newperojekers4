@@ -62,7 +62,7 @@ print(acc)
 # Compute the average of the first 100 odd numbers
 acc = 0
 for val in range(1, 201, 2):
-    acc = acc + val / 201
+    acc = acc + val / 100
 
 print(acc)
 
