@@ -23,7 +23,7 @@ print(archimedes(4))
 print(archimedes(8))
 print(archimedes(16))
 
-for sides in range(40, 400, 40):
+for sides in range(40000000, 400000000, 40000000):
     print(sides, archimedes(sides))
 
 
