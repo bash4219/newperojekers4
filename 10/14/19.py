@@ -64,6 +64,7 @@ acc = 0
 for val in range(0, 201, 2):
     acc = acc + val
 print(acc)
+
 # Write a function that returns the average of the first N numbers, where
 #   N is a parameter
 # Write a function called factorial that computes the product of the first N
