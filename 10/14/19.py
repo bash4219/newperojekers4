@@ -77,6 +77,14 @@ def averij(N):
 print(averij(6))
 # Write a function called factorial that computes the product of the first N
 #   numbers, where N is a parameter
+def factorial(N):
+    acc = 1
+    for val in range(1, N+1, 1):
+        acc = acc * val
+    print(acc)
+
+print(factorial(6))
+
 # Each number in the Fibonacci sequence is the sum of the previous two numbers.
 #   The first two numbers in the sequence are 1 and 1.  Compute the 10th
 #   Fibonacci number.
