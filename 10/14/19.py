@@ -68,11 +68,13 @@ print(acc)
 
 # Write a function that returns the average of the first N numbers, where
 #   N is a parameter
-acc = 0
-for val in range(1, 201, 2):
-    acc = acc + val / 100
+def averij(N):
+    acc = 0
+    for val in range(0, N, 1):
+        acc = acc + val
+    print(acc/N)
 
-print(acc)
+print(averij(6))
 # Write a function called factorial that computes the product of the first N
 #   numbers, where N is a parameter
 # Each number in the Fibonacci sequence is the sum of the previous two numbers.
