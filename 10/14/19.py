@@ -95,4 +95,9 @@ print(acc)
 
 # Write a function to compute the Nth Fibonacci number, where N is a parameter.
 #   You may assume that N will be greater than or equal to 3.
-
+def Fibonacci(N):
+    acc = 0
+    for Fibonacci in range(1, N):
+        acc = acc + Fibonacci
+    print(acc)
+print(Fibonacci(11))
