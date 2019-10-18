@@ -110,3 +110,16 @@ print(Fibonacci(9))
 
 import random
 print(random.random())
+
+# boolean expessions
+#
+#
+# and, or, not
+
+
+smallchield = 63.2
+print(smallchield == 63.2)
+loerjmanchielld = 107.93465
+# and both
+# or is ether
+# mens oposet
