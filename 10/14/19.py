@@ -123,3 +123,22 @@ loerjmanchielld = 107.93465
 # and both
 # or is ether
 # mens oposet
+
+
+# decision making skills
+mom = 20
+dad = 15
+pepel = 25
+homlesgi = 0
+
+if mom > 20:
+    if dad < 50:
+        mom = 150
+    else:
+        mom = 300
+else:
+    mom = 5
+
+print(mom)
+
+
