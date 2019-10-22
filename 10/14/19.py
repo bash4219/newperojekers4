@@ -126,19 +126,46 @@ loerjmanchielld = 107.93465
 
 
 # decision making skills
-mom = 20
-dad = 15
-pepel = 25
-homlesgi = 0
-
-if mom > 20:
-    if dad < 50:
-        mom = 150
+jaz = 20
+bobwolker = 15
+thimithy = 25
+kenen = 0
+if jaz > 20:
+    if bobwolker < 50:
+        kenen = 150
     else:
-        mom = 300
+        kenen = 300
 else:
-    mom = 5
+    if thimithy > 500:
+        kenen = 200
+    else:
+        kenen = 75
+print(kenen)
 
-print(mom)
+dady = 75
+if dady > 100:
+    print("bigger than 100")
+elif dady > 80:
+    print("bigger than 80")
+elif dady > 45:
+    print("bigger than 45")
+else:
+    print("not bigger than much")
 
+def montePi(numDarts):
 
+    inCircle = 0
+
+    for i in range(numDarts):
+        x = random.random()
+        y = random.random()
+
+        distance = math.sqrt(x**2 + y**2)
+
+        if distance <= 1:
+            inCircle = inCircle + 1
+
+    pi = inCircle / numDarts * 4
+    return pi
+
+print(montePi(10000000000))
